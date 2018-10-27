@@ -1,10 +1,10 @@
 # sequelize-node
-sequelize for node as module
+store your sequelize instance in module. why? you can access this instance everywhere, for example use different modules without dependency in your app code.
 
 ## Install
 
 ```
-npm i sequelize-node.
+npm i sequelize-node --save-dev
 ```
 
 ## Using
@@ -12,9 +12,9 @@ npm i sequelize-node.
 ```
 const { Sequelize, sequelize } = require('sequelize-node');
 
-const newInstance = new SequelizeJS(database, username, password, options);
+const newSequelize = new Sequelize(database, username, password, options);
 
-// newInstance === sequelize
+// newSequelize === sequelize
 
 ```
 
