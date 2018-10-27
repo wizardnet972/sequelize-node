@@ -1,0 +1,27 @@
+{
+  "name": "sequelize-node",
+  "version": "1.0.0",
+  "description": "sequelize for node as module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "npm pack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizardnet972/sequelize-node.git"
+  },
+  "keywords": [],
+  "author": "Shlomi Levi <wizardnet972@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizardnet972/sequelize-node/issues"
+  },
+  "homepage": "https://github.com/wizardnet972/sequelize-node#readme",
+  "dependencies": {
+    "sequelize": "^4.41.0",
+    "sequelize-typescript": "^0.6.6",
+    "typescript": "^3.1.3"
+  }
+}
