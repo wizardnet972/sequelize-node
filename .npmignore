@@ -3,3 +3,7 @@
 !**.d.ts
 !*.d.ts
 tsconfig.json
+**/*.js
+**/*.js.map
+*.js
+*.js.map
