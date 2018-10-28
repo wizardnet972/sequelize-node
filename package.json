@@ -1,6 +1,6 @@
 {
   "name": "sequelize-node",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "sequelize for node as module",
   "main": "index.js",
   "scripts": {

@@ -1,12 +1,16 @@
 import * as SequelizeJS from 'sequelize';
 
-let sequelize = null;
+let sequelize: SequelizeJS.Sequelize;
 
-const Sequelize = (database: string, username: string, password: string, options: any) => {
+const Sequelize = (
+  database: string,
+  username: string,
+  password: string,
+  options: any
+) => {
+  sequelize = new SequelizeJS(database, username, password, options);
 
-    sequelize = new SequelizeJS(database, username, password, options);
-
-    return sequelize; 
-}
+  return sequelize;
+};
 
 export { sequelize, Sequelize };
